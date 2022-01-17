@@ -50,7 +50,7 @@
                             <label>
                                 Para qual vaga você <br> deseja se candidatar?
                             </label>
-                            <select>
+                            <select id="vaga">
                                 <option value="vazio" selected>Selecione uma opção</option>
                                 <option value="front">Dev Front-end</option>
                                 <option value="back">Dev Back-end</option>
@@ -70,13 +70,14 @@
                             <label>
                                 Qual seu status profissional
                             </label>
-                            <input type="radio" name="situação" id="situçao" value="empregado">
+                            <input type="radio" name="situ" id="empregado" value="empregado">
+                            <label:for id="situ"></label:for>
                             Empregado
-                            <input type="radio" name="situação" id="situçao" value="desempregado">
+                            <input type="radio" name="situ" id="desempregado" value="desempregado">
                             Desempregado
-                            <input type="radio" id="situçao" name="situação" value="autonomo">
+                            <input type="radio" id="autonomo" name="situ" value="autonomo">
                             Autônomo
-                            <input type="radio" id="situçao" name="situação" value="estudante">
+                            <input type="radio" id="estudante" name="situ" value="estudante">
                             Estudante
                         </div>
                         <!--currículo up-->
